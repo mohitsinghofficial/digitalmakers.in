@@ -1,6 +1,10 @@
 # Disable directory browsing
 Options -Indexes
 
+RewriteRule ^(app|system|vendor|writable|pwa|tests)/ - [F,L]
+RewriteRule ^(\.env|composer\.json|composer\.lock|phpunit\.xml|\.git|run_trisandhya\.sh|preload\.php|[^/]+\.bat|[^/]+\.sh|[^/]+\.dist|spark)$ - [F,L]
+
+
 # ----------------------------------------------------------------------
 # Rewrite engine
 # ----------------------------------------------------------------------

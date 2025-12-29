@@ -15,7 +15,6 @@ composer.lock
 
 # PHPStorm, VSCode, & other editors/IDEs
 .idea/
-.vscode/
 *.sublime-workspace
 
 # Node modules if you are using Node.js in your project
@@ -51,3 +50,7 @@ public/fw/*
 # public/pdfs
 
 .env
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json
